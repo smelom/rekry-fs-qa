@@ -1,5 +1,7 @@
 # Website monitor
 
+_Sanna Elomaa, 2022-11-06_
+
 This program periodically goes through a list of websites and does the following:
 - Makes a GET request to the site
 - Checks the status code and text content of the response

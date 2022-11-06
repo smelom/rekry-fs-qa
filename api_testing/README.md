@@ -1,5 +1,7 @@
 # API testing
 
+_Sanna Elomaa, 2022-11-06_
+
 ## Test cases
 
 ### What to test
