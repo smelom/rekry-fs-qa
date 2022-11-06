@@ -9,7 +9,9 @@ import toml
 def main():
     config = toml.load("config.toml")
 
-    parser = ArgumentParser(description="Monitor a list of websites given in config.toml")
+    parser = ArgumentParser(
+        description="Monitor a list of websites given in config.toml"
+    )
     parser.add_argument(
         "-s",
         "--sleep",

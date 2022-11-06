@@ -1,7 +1,6 @@
 import requests
 from requests.adapters import HTTPAdapter, Retry
 
-
 API_URL = "https://dummy.restapiexample.com/api/v1"
 EMPLOYEE_DATA = {
     "name": "Test Tester",
