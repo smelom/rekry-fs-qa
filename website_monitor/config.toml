@@ -1,0 +1,18 @@
+log_file = "website_monitor.log"
+sleep = 5
+
+[[websites]]
+url = "https://www.f-secure.com/en"
+content = "F-Secure makes every digital moment more secure, for everyone."
+
+[[websites]]
+url = "https://en.wikipedia.org/"
+content = "This text is not found in the content, so the content check fails"
+
+[[websites]]
+url = "https://dummy.restapiexample.com/"
+content = "This request returns a non-OK status code"
+
+[[websites]]
+url = "https://www.example.com/"
+content = "This request fails"
